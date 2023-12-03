@@ -1,26 +1,7 @@
-// var tl=gsap.timeline({scrollTrigger:{
-//     trigger:".two",
-//     // scroller:"body",
-//     markers:true,
-//     start:"0% 90%",
-//     end:"50% 50%",
-//     scrub:true,
 
-// }});
-
-// gsap.from("#fanta",{
-//     X:1000,
-//     y:5000,
-//     y:5,
-//     duration:3,
-// })
 var tl=gsap.timeline();
 
-// tl.from("#hero-text1",{
-//     left:-2000,
-//     opacity:0,
-//     duration:3,
-// })
+
 gsap.from("nav h1,.nav-part2,.nav-part3",{
     y:-100,
     x:50,
@@ -107,13 +88,7 @@ tl.to("#leaf1",{
 },'orange');
 
 
-// let tl2=gsap.timeline({scrollTrigger:{
-//     trigger:".three",
-//     start:"0% 95%",
-//     end:"70% 50%",
-//     scrub:true,
-//     markers:true,
-// }})
+
 let tl2=gsap.timeline();
 tl2.from("#sprite",{
     rotate:"-90deg",
